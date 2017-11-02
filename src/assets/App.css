@@ -1,0 +1,38 @@
+html, body {
+  height: 100%;
+  background-color: #3E3E3E;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Muli', sans-serif;
+  height: 100%
+}
+
+.App {
+  text-align: center;
+  color: #EFEEED;
+}
+
+.flex-divider {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.flex-divider > div {
+  flex: 0 1 50%;
+}
+
+.name {
+  font-size: 23px;
+}
+
+.sub-name {
+  font-size: 14px;
+  color: #717171;
+}
+
+.contact {
+  display: list-item block;
+}
