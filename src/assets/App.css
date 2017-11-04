@@ -34,5 +34,18 @@ body {
 }
 
 .contact {
-  display: list-item block;
+}
+
+.contact > span {
+  display: block;
+  font-size: 13px;
+}
+
+a {
+  color: #717171;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
 }
